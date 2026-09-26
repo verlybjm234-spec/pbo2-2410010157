@@ -4,22 +4,29 @@
  */
 package id.ac.uniska.pbo2.p01;
 
-/**
- * Program pertama PBO 2 untuk memastikan JDK, NetBeans, dan Maven siap digunakan.
- */
 public class HaloPBO2 {
 
     public static void main(String[] args) {
-        String nama = "Mahasiswa Teknik Informatika";
 
-        System.out.println("Halo, " + nama + "!");
-        System.out.println("Selamat datang di Pemrograman Berbasis Objek 2.");
-        System.out.println();
+        // Data mahasiswa
+        String nama = "Ahmad verly";
+        String npm = "2410010157";
+        String prodi = "Teknik Informatika";
+        int semester = 5;
 
-        // Informasi lingkungan Java yang sedang digunakan
-        System.out.println("Versi Java      : " + System.getProperty("java.version"));
-        System.out.println("Vendor JDK      : " + System.getProperty("java.vendor"));
-        System.out.println("Sistem operasi  : " + System.getProperty("os.name"));
+        // Alasan mengambil PBO 2
+        String alasan = "Ingin membuat aplikasi E-commerns";
+
+        // Menampilkan kartu mahasiswa
+        System.out.println("==============================");
+        System.out.println("KARTU MAHASISWA PBO 2");
+        System.out.println("==============================");
+        System.out.println("Nama      : " + nama);
+        System.out.println("NPM       : " + npm);
+        System.out.println("Prodi     : " + prodi);
+        System.out.println("Semester  : " + semester);
+        System.out.println("Alasan    : " + alasan);
+        System.out.println("==============================");
     }
 }
 
